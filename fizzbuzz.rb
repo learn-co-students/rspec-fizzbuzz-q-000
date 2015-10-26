@@ -1,13 +1,17 @@
 def fizzbuzz(i)
   out = ""
-  if i%3 == 0
-    out = "Fizz"
-  end
-  if i%5 == 0
-    return out + "Buzz"
-  elsif out == ""
-    return nil
+  i_3=(i%3==0)
+  i_5=(i%5==0)
+  case
+    when i_3
+      print "Fizz"
+    when i_5
+      return "Buzz"
+    when out
+      return out
   else
-    return out
+    return nil
   end
 end
+
+puts fizzbuzz(30)
