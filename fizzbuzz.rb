@@ -6,13 +6,16 @@ def fizzbuzz(int)
   elsif int % 5==0
     "Buzz"
   else
+    nil
   end
 end
 
 
 #had to look up on google, ruby operators for the explanation of / vs %
-#can be many elsifs, but only 1 if, and one else if applicable
+#can be many elsifs, but only 1 if, and one else if applicable(booleans can extend these of course)
 #possible solution 1: use the && for the AND boolean, for both equations must be a truthy. solution used.
 #solution one i had the concept of, however originally i was putting it at the end of the def. had the realization that since it required more parameters to meet, it would be best to use for if statement.
 #also needed to think more math conceptual to figure out simple solution for divisible by 3 AND 5. least common multiple is 15. therefore, number should be divisible 15 if divisible by 3 and 5.possible solution 2- if int%15==0
-
+#put else at end for values not divisible by either, but, wasnt sure what exactly to put, because expected output is just nil.learned later you can actually submit nil or false.
+#could set
+#if int % 3==0 II int % 5==0
