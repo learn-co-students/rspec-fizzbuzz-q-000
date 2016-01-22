@@ -1,10 +1,10 @@
 def fizzbuzz(number)
-  if divisible_by_3_and_5?(number)
-    "FizzBuzz"
-  elsif divisible_by_3?(number)
-    "Fizz"
+  if divisible_by_3?(number)
+    return "Fizz"
   elsif divisible_by_5?(number)
     "Buzz"
+  elsif divisible_by_3_and_5?(number)
+    "FizzBuzz"
   else
     nil 
   end
