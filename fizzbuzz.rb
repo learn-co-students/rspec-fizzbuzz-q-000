@@ -1,11 +1,13 @@
 def fizzbuzz(x)
 
-  x = x.to_s.split('')
-  to_5 = x[x.length + 1]
-  to_5 = to_5.to_i
+  if x % 15 == 0
+    "FizzBuzz"
+  elsif x % 5 == 0
+    "Buzz"
+  elsif x % 3 == 0
+    "Fizz"
+  else
 
-  if to_5 = 0 || 5
-    puts "Buzz"
   end
 
 end
