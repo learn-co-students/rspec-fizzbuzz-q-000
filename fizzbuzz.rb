@@ -11,7 +11,3 @@ def fizzbuzz(int)
   end
 end
 
-=begin
-elsif int % 3 == 0 && int % 5 == 0
-   "FizzBuzz"
-=end
