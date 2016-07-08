@@ -1,4 +1,17 @@
 require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
+
+# def fizzbuzz(input)
+# if input % 3 == 0
+#   puts "Fizz"
+# elsif input % 5 == 0
+#   puts "Buzz"
+# elsif input % 15 == 0
+#   puts "FizzBuzz"
+# else input % 4 == 0
+#   puts "nil"
+# end
+# end
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
