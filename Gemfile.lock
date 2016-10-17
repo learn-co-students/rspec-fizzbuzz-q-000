@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    rake (0.9.2.2)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -20,7 +21,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rspec
+  bundler (~> 1.13.2)
+  rake (~> 0.9.2.2)
+  rspec (~> 3.4.0)
 
 BUNDLED WITH
-   1.11.2
+   1.13.2
