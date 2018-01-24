@@ -19,3 +19,18 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = 'default'
 end
+def fizzbuzz(fizz)
+	if(fizz % 3 == 0 && fizz % 5 == 0)
+		return"FizzBuzz"
+		elsif(fizz % 3 == 0)
+			return"Fizz"
+			elsif( fizz % 5 == 0)
+	 			return "Buzz"
+				else return nil
+				end
+			end
+			
+
+fizz = 3
+
+fizzbuzz(fizz)
