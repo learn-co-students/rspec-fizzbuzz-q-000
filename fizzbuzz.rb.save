@@ -1,8 +1,11 @@
 def fizzbuzz(int)
-	if int % 3 == 0  && int % 5 == 0
+	int = int.to_int
+	if int % 3 == 0 && int %% 5 ==0
 		"FizzBuzz"
+	end
 	elsif int % 3 == 0
-		"Fizz"
+	
+	"Fizz"
 	elsif int % 5 == 0
 		"Buzz"
 	else
